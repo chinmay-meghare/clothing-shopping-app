@@ -1,11 +1,10 @@
 // to store all common variables and state variables in one place
-
 import { createContext } from "react";
 import { products } from "../assets/assets";
 
 export const ShopContext = createContext();
 
-const ShopContextProvider = (prop) => {
+const ShopContextProvider = (props) => {
   const currency = "$";
   const delivery_fee = 10;
 
@@ -19,3 +18,5 @@ const ShopContextProvider = (prop) => {
     <ShopContext.Provider value={value}>{props.children}</ShopContext.Provider>
   );
 };
+
+export default ShopContextProvider;
