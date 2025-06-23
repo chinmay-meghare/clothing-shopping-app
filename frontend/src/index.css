@@ -25,6 +25,11 @@
   font-style: normal;
 }
 
+/* hides scrollbar in products images  */
+::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 640px) {
   a.active {
     background-color: black;
