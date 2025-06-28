@@ -4,6 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
 
 const Navbar = () => {
+
+  const [visible, setVisible] = useState(false);
+
   const { setShowSearch, getCartCount } = useContext(ShopContext);
 
   const navLinkStyles = ({ isActive }) => {
@@ -16,8 +19,6 @@ const Navbar = () => {
       cursor: "pointer",
     };
   };
-
-  const [visible, setVisible] = useState(false);
 
   return (
     <div className="flex items-center justify-between py-5 font-medium">
