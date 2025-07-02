@@ -7,6 +7,7 @@ import SearchBar from "./components/SearchBar";
 import Product from "./pages/Product";
 import { ToastContainer, toast } from "react-toastify";
 import Cart from "./pages/Cart";
+import PlaceOrder from "./pages/PlaceOrder";
 
 function App() {
   return (

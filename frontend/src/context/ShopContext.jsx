@@ -74,7 +74,7 @@ const ShopContextProvider = (props) => {
         try {
           if (cartItems[items][item] > 0) {
             totalAmount += itemInfo.price * cartItems[items][item];
-            console.log(totalAmount);
+            // console.log(totalAmount);
           }
         } catch (error) {
           console.log(error);
