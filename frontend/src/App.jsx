@@ -10,6 +10,7 @@ import Cart from "./pages/Cart";
 import PlaceOrder from "./pages/PlaceOrder";
 import Orders from "./pages/Orders";
 import Login from "./pages/Login";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -26,10 +27,8 @@ function App() {
           <Route path="/place-order" element={<PlaceOrder />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/login" element={<Login />} />
-          {/*  <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />       
-        
-         */}
+          <Route path="/about" element={<About />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
         <Footer />
       </div>
