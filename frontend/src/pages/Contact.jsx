@@ -5,7 +5,7 @@ import NewsLetterBox from "../components/NewsLetterBox";
 
 const Contact = () => {
   return (
-    <>
+    <div>
       <div className="text-center text-2xl pt-10 border-t">
         <Title text1={"CONTACT"} text2={"US"} />
       </div>
@@ -35,9 +35,9 @@ const Contact = () => {
             Explore Jobs
           </button>
         </div>
-        <NewsLetterBox />
       </div>
-    </>
+      <NewsLetterBox />
+    </div>
   );
 };
 
