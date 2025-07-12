@@ -3,15 +3,15 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import "./App.css";
 import App from "./App.jsx";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import ShopContextProvider from "./context/ShopContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <HashRouterRouter basename="/clothing-shopping-app">
+  <BrowserRouter basename="/clothing-shopping-app">
     <ShopContextProvider>
       <StrictMode>
       <App />
       </StrictMode>
     </ShopContextProvider>
-  </HashRouterRouter>
+  </BrowserRouter>
 );
