@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const navLinkStyles = ({ isActive }) => {
     return {
-      borderBottom: isActive ? "1.8px solid #374151" : "none",
+      borderBottom: isActive ? "1.8px solid #a040ae" : "none",
       paddingBottom: "4px",
       display: "inline-block",
       margin: "0 auto",
