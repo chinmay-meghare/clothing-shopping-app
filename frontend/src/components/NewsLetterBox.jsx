@@ -27,7 +27,7 @@ const NewsLetterBox = () => {
         />
         <button
           type="submit"
-          className="bg-black text-white text-xs px-10 py-4"
+          className="bg-[#bd17b3] hover:bg-[#000000] text-white text-xs px-10 py-4"
         >
           SUBSCRIBE
         </button>

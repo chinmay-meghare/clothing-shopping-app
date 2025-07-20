@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const navLinkStyles = ({ isActive }) => {
     return {
-      borderBottom: isActive ? "1.8px solid #a040ae" : "none",
+      borderBottom: isActive ? "2.5px solid #bd17d3" : "none",
       paddingBottom: "4px",
       display: "inline-block",
       margin: "0 auto",
@@ -66,19 +66,19 @@ const Navbar = () => {
           <div className="hidden group-hover:block absolute dropmenu-right right-0 pt-4">
             <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text">
               <p
-                className="cursor-pointer text-center text-gray-700 hover:text-black hover:bg-blue-300"
+                className="cursor-pointer text-center text-gray-700 hover:text-black hover:bg-[#bd17b3]"
                 alt="myprofile-logo"
               >
                 My Profile
               </p>
               <p
-                className="cursor-pointer text-center text-gray-700 hover:text-black hover:bg-blue-300"
+                className="cursor-pointer text-center text-gray-700 hover:text-black hover:bg-[#bd17b3]"
                 alt="order-logo"
               >
                 Order
               </p>
               <p
-                className="cursor-pointer text-center text-gray-700 hover:text-black hover:bg-blue-300"
+                className="cursor-pointer text-center text-gray-700 hover:text-black hover:bg-[#bd17b3]"
                 alt="cart-logo"
               >
                 Logout

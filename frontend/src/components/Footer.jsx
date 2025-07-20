@@ -26,7 +26,7 @@ const Footer = () => {
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+1-212-456-8888</li>
-            <li>contact@foreveryou.com</li>
+            <li>contact@stylesloth.com</li>
           </ul>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Footer = () => {
         <hr />
         <p className="py-5 text-sm text-center">
           {" "}
-          &copy; Copyright 2025 & forever.com - All Rights Reserved
+          &copy; Copyright 2025 & stylesloth.com - All Rights Reserved
         </p>
       </div>
     </div>
